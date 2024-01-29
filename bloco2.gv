@@ -2,50 +2,100 @@ digraph {
     
     layout=neato
     
-    tema [label="DESENVOLVIMENTO DE SOFTWARE"];
-    a [label="Programação e estrutura de dados"];
-    a1 [label="Linguagens de programação Python e Java"];
-    a2 [label="Orientação a objetos: conceitos básicos, padrões de projeto"];
-    a3 [label="Algoritmos de busca e ordenação"];
-    a4 [label="Estruturas lineares: lista encadeada, pilha, fila"]
-    a5 [label="Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, filas de prioridades, árvores balanceadas"]
-    b [label="Programação Web"]
-    b1 [label="Conceitos fundamentais de programação para a Web. Linguagens: HTML, XML, CSS, JavaScript"]
-    b2 [label="Navegadores"]
-    b3 [label="Frameworks de desenvolvimento para a Web"]
-    b4 [label="Servidores Web"]
-    c [label="Desenvolvimento para plataformas móveis"]
-    c1 [label="Plataformas de programação"]
-    c2 [label="Emuladores e padrões de programação para smartphones e tablets"]
-    c3 [label="Principais componentes de interface com o usuário"]
-    c4 [label="Tecnologias de persistência de daos em dispositivos móveis"]
-    d [label="Engenharia de software"]
-    d1 [label="Processos ágeis"]
-    d2 [label="Engenharia de requisitos"]
-    d3 [label="Ideação e especificação ágil"]
-    d4 [label="Arquitetura MVC e princípios de projeto"]
-    d5 [label="Testes unitários"]
-    d6 [label="Revisões de software modernas"]
-    d7 [label="DevOps (controle de versões, integração contínua e deployment contínuo)"]
-    d8 [label="Testes de aceitação"]
-    e [label="Banco de dados"]
-    e1 [label="Projeto de banco de dados: projeto conceitual, lógico e físico"]
-    e2 [label="A abordagem Entidade-Relacionamento (E-R)"]
-    e3 [label="Modelo relacional: conceitos, restrições de integridade, mapeamento de modelos E-R para esquemas relacionais"]
-    e4 [label="Depedências funcionais e normalização"]
-    e5 [label="Linguagens SQL: DDL, DML, restrições de integridde, visões, autorização de acesso"]
-    e6 [label="Sistemas de gerência de bancos de dados"]
-    e7 [label="Bancos de dados NoSQL: definição de NoSQL, orientação à agregados, tipos de SGBD NoSQL: chave valor, chave valor orientado à documentos, família de colunas, grafos"]
-    f [label="Arquitetura e tecnologias de sistemas de informação"]
-    f1 [label="Conceitos básicos"]
-    f2 [label="Workflow e gerenciamento eletrônico de documentos"]
+    tema [label="DESENVOLVIMENTO DE SOFTWARE", style=filled, color=red];
+    a [label="Programação e estrutura de dados", style=filled, color=orange];
+    a1 [label="Linguagens de programação Python e Java", style=filled, color=yellow];
+    a2 [label="Orientação a objetos", style=filled, color=yellow];
+    a2a [label="conceitos básicos", style=filled, color=green]
+    a2b [label="padrões de projeto", style=filled, color=green]
+    a3 [label="Algoritmos de busca e ordenação", style=filled, color=yellow];
+    a4 [label="Estruturas lineares", style=filled, color=yellow];
+    a4a [label="lista encadeada", style=filled, color=green];
+    a4b [label="pilha", style=filled, color=green];
+    a4c [label="fila", style=filled, color=green];
+    a5 [label="Árvores", style=filled, color=yellow];
+    a5a [label="formas de representação", style=filled, color=green];
+    a5b [label="recursão em árvores", style=filled, color=green];
+    a5c [label="árvores binárias", style=filled, color=green];
+    a5d [label="árvores binárias de busca", style=filled, color=green];
+    a5e [label="filas de prioridades", style=filled, color=green];
+    a5f [label="árvores balanceadas", style=filled, color=green];
+    b [label="Programação Web", style=filled, color=orange];
+    b1 [label="Conceitos fundamentais de programação para a Web.", style=filled, color=yellow];
+    b1a [label="Linguagens", style=filled, color=green];
+    b1a1 [label="HTML", style=filled, color=blue];
+    b1a2 [label="XML", style=filled, color=blue];
+    b1a3 [label="CSS", style=filled, color=blue];
+    b1a4 [label="JavaScript", style=filled, color=blue];
+    b2 [label="Navegadores", style=filled, color=yellow];
+    b3 [label="Frameworks de desenvolvimento para a Web", style=filled, color=yellow];
+    b4 [label="Servidores Web", style=filled, color=yellow];
+    c [label="Desenvolvimento para plataformas móveis", style=filled, color=orange];
+    c1 [label="Plataformas de programação", style=filled, color=yellow];
+    c2 [label="Emuladores e padrões de programação para smartphones e tablets", style=filled, color=yellow];
+    c3 [label="Principais componentes de interface com o usuário", style=filled, color=yellow];
+    c4 [label="Tecnologias de persistência de daos em dispositivos móveis", style=filled, color=yellow];
+    d [label="Engenharia de software", style=filled, color=orange];
+    d1 [label="Processos ágeis", style=filled, color=yellow];
+    d2 [label="Engenharia de requisitos", style=filled, color=yellow];
+    d3 [label="Ideação e especificação ágil", style=filled, color=yellow];
+    d4 [label="Arquitetura MVC e princípios de projeto", style=filled, color=yellow];
+    d5 [label="Testes unitários", style=filled, color=yellow];
+    d6 [label="Revisões de software modernas", style=filled, color=yellow];
+    d7 [label="DevOps", style=filled, color=yellow];
+    d7a [label="controle de versões", style=filled, color=green];
+    d7b [label="integração contínua", style=filled, color=green];
+    d7c [label="deployment contínuo", style=filled, color=green];
+    d8 [label="Testes de aceitação", style=filled, color=yellow];
+    e [label="Banco de dados", style=filled, color=orange];
+    e1 [label="Projeto de banco de dados", style=filled, color=yellow];
+    e1a [label="projeto conceitual", style=filled, color=green];
+    e1b [label="lógico", style=filled, color=green];
+    e1c [label="físico", style=filled, color=green];
+    e2 [label="A abordagem Entidade-Relacionamento (E-R)", style=filled, color=yellow];
+    e3 [label="Modelo relacional", style=filled, color=yellow];
+    e3a [label="conceitos", style=filled, color=green];
+    e3b [label="restrições de integridade", style=filled, color=green];
+    e3c [label="mapeamento de modelos E-R para esquemas relacionais", style=filled, color=green];
+    e4 [label="Depedências funcionais e normalização", style=filled, color=yellow];
+    e5 [label="Linguagens SQL", style=filled, color=yellow];
+    e5a [label="DDL", style=filled, color=green];
+    e5b [label="DML", style=filled, color=green];
+    e5c [label="restrições de integridade", style=filled, color=green];
+    e5d [label="visões", style=filled, color=green];
+    e5e [label="autorização de acesso", style=filled, color=green];
+    e6 [label="Sistemas de gerência de bancos de dados", style=filled, color=yellow];
+    e7 [label="Bancos de dados NoSQL", style=filled, color=yellow];
+    e7a [label="definição de NoSQL", style=filled, color=green];
+    e7b [label="orientação à agregados", style=filled, color=green];
+    e7c [label="tipos de SGBD NoSQL", style=filled, color=green];
+    e7c1 [label="chave valor", style=filled, color=blue];
+    e7c2 [label="chave valor orientado à documentos", style=filled, color=blue];
+    e7c3 [label="família de colunas", style=filled, color=blue];
+    e7c4 [label="grafos", style=filled, color=blue];
+    f [label="Arquitetura e tecnologias de sistemas de informação", style=filled, color=orange];
+    f1 [label="Conceitos básicos", style=filled, color=yellow];
+    f2 [label="Workflow e gerenciamento eletrônico de documentos", style=filled, color=yellow];
     
+
     tema -> {a,b,c,d,e,f} [len=5];
     a -> {a1,a2,a3,a4,a4,a5} [len=6];
+    a2 -> {a2a,a2b} [len=2];
+    a4 -> {a4a,a4b,a4c} [len=2];
+    a5 -> {a5a,a5b,a5c,a5d,a5e,a5f} [len=2];
     b -> {b1,b2,b3,b4} [len=6];
+    b1 -> b1a [len=2]
+    b1a -> {b1a1,b1a2,b1a3,b1a4} [len=2];
     c -> {c1,c2,c3,c4} [len=6]; 
     d -> {d1,d2,d3,d4,d5,d6,d7,d8} [len=6];
+    d7 -> {d7a,d7b,d7c} [len=2];
     e -> {e1,e2,e3,e4,e5,e6,e7} [len=6];
+    e1 -> {e1a,e1b,e1c} [len=2];
+    e3 -> {e3a,e3b,e3c} [len=2];
+    e5 -> {e5a,e5b,e5c,e5d,e5e} [len=2];
+    e7 -> {e7a,e7b,e7c} [len=2];
+    e7c -> {e7c1,e7c2,e7c3,e7c4} [len=2];
     f -> {f1,f2} [len=6];
+     
     
 }
