@@ -1,0 +1,51 @@
+digraph {
+    
+    layout=neato
+    
+    tema [label="DESENVOLVIMENTO DE SOFTWARE"];
+    a [label="Programação e estrutura de dados"];
+    a1 [label="Linguagens de programação Python e Java"];
+    a2 [label="Orientação a objetos: conceitos básicos, padrões de projeto"];
+    a3 [label="Algoritmos de busca e ordenação"];
+    a4 [label="Estruturas lineares: lista encadeada, pilha, fila"]
+    a5 [label="Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, filas de prioridades, árvores balanceadas"]
+    b [label="Programação Web"]
+    b1 [label="Conceitos fundamentais de programação para a Web. Linguagens: HTML, XML, CSS, JavaScript"]
+    b2 [label="Navegadores"]
+    b3 [label="Frameworks de desenvolvimento para a Web"]
+    b4 [label="Servidores Web"]
+    c [label="Desenvolvimento para plataformas móveis"]
+    c1 [label="Plataformas de programação"]
+    c2 [label="Emuladores e padrões de programação para smartphones e tablets"]
+    c3 [label="Principais componentes de interface com o usuário"]
+    c4 [label="Tecnologias de persistência de daos em dispositivos móveis"]
+    d [label="Engenharia de software"]
+    d1 [label="Processos ágeis"]
+    d2 [label="Engenharia de requisitos"]
+    d3 [label="Ideação e especificação ágil"]
+    d4 [label="Arquitetura MVC e princípios de projeto"]
+    d5 [label="Testes unitários"]
+    d6 [label="Revisões de software modernas"]
+    d7 [label="DevOps (controle de versões, integração contínua e deployment contínuo)"]
+    d8 [label="Testes de aceitação"]
+    e [label="Banco de dados"]
+    e1 [label="Projeto de banco de dados: projeto conceitual, lógico e físico"]
+    e2 [label="A abordagem Entidade-Relacionamento (E-R)"]
+    e3 [label="Modelo relacional: conceitos, restrições de integridade, mapeamento de modelos E-R para esquemas relacionais"]
+    e4 [label="Depedências funcionais e normalização"]
+    e5 [label="Linguagens SQL: DDL, DML, restrições de integridde, visões, autorização de acesso"]
+    e6 [label="Sistemas de gerência de bancos de dados"]
+    e7 [label="Bancos de dados NoSQL: definição de NoSQL, orientação à agregados, tipos de SGBD NoSQL: chave valor, chave valor orientado à documentos, família de colunas, grafos"]
+    f [label="Arquitetura e tecnologias de sistemas de informação"]
+    f1 [label="Conceitos básicos"]
+    f2 [label="Workflow e gerenciamento eletrônico de documentos"]
+    
+    tema -> {a,b,c,d,e,f} [len=5];
+    a -> {a1,a2,a3,a4,a4,a5} [len=6];
+    b -> {b1,b2,b3,b4} [len=6];
+    c -> {c1,c2,c3,c4} [len=6]; 
+    d -> {d1,d2,d3,d4,d5,d6,d7,d8} [len=6];
+    e -> {e1,e2,e3,e4,e5,e6,e7} [len=6];
+    f -> {f1,f2} [len=6];
+    
+}
