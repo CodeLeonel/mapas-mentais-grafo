@@ -22,6 +22,10 @@ public class Sessao {
 		this.texto = texto;
 	}
 	
-	
+	@Override
+	public String toString() {
+		
+		return " ( " + tema + " ) " + "\n" + " [ " + texto + " ] ";
+	}
 	
 }
