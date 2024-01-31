@@ -17,6 +17,10 @@ public class Programa {
 		
 		List<Sessao> sessaoList = leitorTexto.lerTexto(texto, 0, null);
 		
+		Padronizador padronizador = new Padronizador();
+		
+		sessaoList = padronizador.ajustaTexto(sessaoList);
+		
 		try(BufferedWriter bf = new BufferedWriter(new FileWriter("sessoes.txt"))) {
 			
 			for(Sessao sessao : sessaoList) {

@@ -25,7 +25,7 @@ public class Sessao {
 	@Override
 	public String toString() {
 		
-		return " ( " + tema + " ) " + "\n" + " [ " + texto + " ] ";
+		return tema + "\n" + texto + "\n";
 	}
 	
 }
