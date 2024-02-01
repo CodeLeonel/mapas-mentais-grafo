@@ -9,7 +9,7 @@ import repositorio.LeitorPDF;
 import servico.Categorizador;
 import servico.LeitorTexto;
 import servico.Padronizador;
-import servico.Ramificador;
+import servico.ramificacao.Ramificador;
 
 public class Programa {
 
