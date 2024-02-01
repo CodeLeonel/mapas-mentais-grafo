@@ -10,6 +10,10 @@ public class Sessao {
 		this.tema = tema;
 	}
 
+	public void setTema(String tema) {
+		this.tema = tema;
+	}
+	
 	public String getTema() {
 		return tema;
 	}
@@ -21,7 +25,7 @@ public class Sessao {
 	public void setTexto(String texto) {
 		this.texto = texto;
 	}
-	
+
 	@Override
 	public String toString() {
 		

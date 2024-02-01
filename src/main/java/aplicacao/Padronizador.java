@@ -5,8 +5,35 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Padronizador {
+	
+	
+	public List<Sessao> ajustaSessao(List<Sessao> sessaoList) {
+		
+		sessaoList = ajustaTema(sessaoList);
+		
+		sessaoList = ajustaTexto(sessaoList);
+		
+		return sessaoList;
+		
+	}
 
-	public List<Sessao> ajustaTexto(List<Sessao> sessaoList) {
+	private List<Sessao> ajustaTema(List<Sessao> sessaoList) { 
+		
+		for(Sessao sessao : sessaoList) {
+			
+			String tema = sessao.getTema();
+			
+			tema = tema.contains("EIXO TEMÁTICO") ? tema.split("–")[1].trim() : tema;
+			
+			sessao.setTema(tema);
+			
+		}
+		
+		
+		return sessaoList;
+	}
+	
+	private List<Sessao> ajustaTexto(List<Sessao> sessaoList) {
 		
 		for(Sessao sessao : sessaoList) {
 			
