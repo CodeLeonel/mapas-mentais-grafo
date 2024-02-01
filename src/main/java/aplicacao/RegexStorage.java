@@ -11,7 +11,7 @@ public class RegexStorage {
 		
 		expressoesRegulares = new HashMap<>();
 		expressoesRegulares.put("nodosFilhos", "\\s\\d\\s|\\s1[0-5]\\s|\\s1[0-5]\\.\\s|\\s\\d\\.\\s");
-		expressoesRegulares.put("nodosNetos", "\\s\\d\\.\\d\\s|\\s1[0-5]\\.\\d\\s|\\s\\d\\.1[0-5]\\s");
+		expressoesRegulares.put("nodosNetos", "\\s\\d\\.\\d\\s|\\s1[0-5]\\.\\d\\s|\\s\\d\\.1[0-5]\\s|\\s\\d\\.\\d\\.\\s");
 		expressoesRegulares.put("nodosBisnetos", "\\s\\d\\.\\d\\.\\d\\s");
 		expressoesRegulares.put("familia", expressoesRegulares.get("nodosFilhos") + "|" +
 										   expressoesRegulares.get("nodosNetos") + "|" + 

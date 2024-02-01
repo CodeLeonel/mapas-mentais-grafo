@@ -22,6 +22,10 @@ public class Programa {
 
 		List<PreNodo> preNodoList = categorizador.categorizarSessao(sessaoList);
 
+		Ramificador ramificador = new Ramificador();
+		
+		preNodoList = ramificador.analisarPreNodos(preNodoList);
+		
 		ImpressoraPreNodo impressoraPreNodo = new ImpressoraPreNodo();
 		
 		impressoraPreNodo.imprimirPreNodos(preNodoList);

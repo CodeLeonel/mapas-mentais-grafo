@@ -54,7 +54,7 @@ public class PreNodo {
 	@Override
 	public String toString() {
 	
-		return " [" + nome + "] ";
+		return " {" + valorPreProcessado + "} ";
 
 	}
 	

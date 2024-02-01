@@ -11,12 +11,12 @@
 + {Pai [Efetivação e reparação de Direitos Humanos:] Filhos [ memória, autoritarismo e violência de Estado.]} 
 + { [ Programa Nacional de Direitos Humanos PNDH-3 (Decreto nº 7.037/2009). ] ^\:} 
 + {Pai [Combate às discriminações, desigualdades e injustiças:] Filhos [ de renda, regional, racial, etária e de gênero.]} 
-+ { [ Desenvolvimento sustentável, meio ambiente e mudança climática. ] ^\: Irmãos? } 
++ { [ Desenvolvimento sustentável, meio ambiente e mudança climática. ] ^\:} 
 * { [ ÉTICA e INTEGRIDADE. ] ^\:} 
-+ { [ Princípios e valores éticos do serviço público, seus direitos e deveres à luz do artigo 37 da Constituição Federal de 1988, e do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994). ] ^\: Irmãos? } 
-+ { [ Governança pública e sistemas de governança (Decreto nº 9.203, de 22 de novembro de 2017). Gestão de riscos e medidas mitigatórias na Administração Pública. ] ^\: Irmãos? } 
++ { [ Princípios e valores éticos do serviço público, seus direitos e deveres à luz do artigo 37 da Constituição Federal de 1988, e do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994). ] ^\:} 
++ { [ Governança pública e sistemas de governança (Decreto nº 9.203, de 22 de novembro de 2017). Gestão de riscos e medidas mitigatórias na Administração Pública. ] ^\:} 
 + { [ Integridade pública (Decreto nº 11.529/2023). ] ^\:} 
-+ { [ Transparência e qualidade na gestão pública, cidadania e equidade social. ] ^\: Irmãos? } 
++ { [ Transparência e qualidade na gestão pública, cidadania e equidade social. ] ^\:} 
 + { [ Governo eletrônico e seu impacto na sociedade e na Administração Pública. Lei nº 14.129/2021. ] ^\:} 
 + { [ Acesso à informação. Lei nº 12.527/2011. ] ^\:} 
 + { [ Transparência e imparcialidade nos usos da inteligência artificial no âmbito do serviço público. ] ^\:} 
@@ -29,7 +29,7 @@
 + {Pai [Agentes públicos:] Filhos [ Regime Jurídico Único (Lei nº 8.112/1990 e suas alterações).]} 
 * { [ FINANÇAS PÚBLICAS ] ^\:} 
 + { [ Atribuições econômicas do Estado. ] ^\:} 
-+ { [ Fundamentos das finanças públicas, tributação e orçamento. ] ^\: Irmãos? } 
++ { [ Fundamentos das finanças públicas, tributação e orçamento. ] ^\:} 
 + {Pai [Financiamento das Políticas Públicas:] Filhos [ estrutura de receitas e despesas do Estado brasileiro.]} 
 + {Pai [Noções de orçamento público:] Filhos [ Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA).]} 
 + { [ Federalismo fiscal no Brasil; Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000). ] ^\: Irmãos? } 
@@ -48,11 +48,11 @@
 * { [ Gestão de projetos. ] ^\:} 
 + { [ Conceitos básicos. ] ^\:} 
 + { [ Processos do PMBOK. ] ^\:} 
-+ { [ Gerenciamento da integração, do escopo, do tempo, de custos, da qualidade, de recursos humanos, de comunicações, de riscos, de aquisições, de partes interessadas. ] ^\: Irmãos? } 
++ { [ Gerenciamento da integração, do escopo, do tempo, de custos, da qualidade, de recursos humanos, de comunicações, de riscos, de aquisições, de partes interessadas. ] ^\:} 
 + { [ Metodologias ágeis. ] ^\:} 
 * { [ Gestão de processos de negócio. ] ^\:} 
 + { [ Conceitos da abordagem por processos. ] ^\:} 
-+ { [ Técnicas de mapeamento, análise, melhoria e integração de processos. ] ^\: Irmãos? } 
++ { [ Técnicas de mapeamento, análise, melhoria e integração de processos. ] ^\:} 
 + { [ Modelagem de processos com BPMN (versão 2.0). ] ^\:} 
 + { [ Desenho de serviços públicos. ] ^\:} 
 * {Pai [Gestão de riscos:] Filhos [ princípios, objetos, técnicas, modelos nacionais e internacionais, integração ao planejamento.]} 
@@ -72,15 +72,15 @@
 * { [ O processo de elaboração de políticas. ] ^\:} 
 + { [ O papel do Estado. ] ^\:} 
 + { [ A burocracia e o Estado. ] ^\:} 
-+ { [ Poder, racionalidade e tomada de decisões. ] ^\: Irmãos? } 
++ { [ Poder, racionalidade e tomada de decisões. ] ^\:} 
 + { [ O papel da burocracia e a discricionariedade no processo de formulação e implementação de políticas públicas. ] ^\:} 
 * {Pai [Implementação de políticas públicas:] Filhos [ problemas, dilemas e desafios.]} 
 + { [ Arranjos institucionais para implementação de políticas públicas. ] ^\:} 
 * { [ Avaliação de políticas públicas. ] ^\:} 
 + { [ Principais componentes do processo de avaliação. ] ^\:} 
-+ { [ Custo-benefício, escala, efetividade, impacto das políticas públicas. ] ^\: Irmãos? } 
-+ { [ Principais diretrizes da formulação, implementação e avaliação de políticas públicas. ] ^\: Irmãos? } 
-* { [ Políticas de ciência, tecnologia e inovação. ] ^\: Irmãos? } 
++ { [ Custo-benefício, escala, efetividade, impacto das políticas públicas. ] ^\:} 
++ { [ Principais diretrizes da formulação, implementação e avaliação de políticas públicas. ] ^\:} 
+* { [ Políticas de ciência, tecnologia e inovação. ] ^\:} 
 + { [ Marco Legal de CT&I (Lei nº 13.243/2016). ] ^\:} 
 + { [ Política e Estratégia Nacional de CT&I. ] ^\:} 
 + { [ Política Nacional de Inovação. ] ^\:} 
@@ -143,7 +143,7 @@
 + { [ Arquitetura MVC e princípios de projeto. ] ^\:} 
 + { [ Testes unitários. ] ^\:} 
 + { [ Revisões de software modernas. ] ^\:} 
-+ { [ DevOps (controle de versões, integração contínua e deployment contínuo). ] ^\: Irmãos? } 
++ { [ DevOps (controle de versões, integração contínua e deployment contínuo). ] ^\:} 
 + { [ Testes de aceitação. ] ^\:} 
 * { [ Banco de dados. ] ^\:} 
 + {Pai [Projeto de banco de dados:] Filhos [ projeto conceitual, lógico e físico.]} 
@@ -156,7 +156,7 @@
 * { [ Arquitetura e tecnologias de sistemas de informação. ] ^\:} 
 + { [ Conceitos básicos. ] ^\:} 
 + { [ Workflow e gerenciamento eletrônico de documentos. ] ^\:} 
-@ { [ APOIO À DECISÃO, INTELIGÊNCIA ARTIFICIAL E MÉTODOS QUANTITATIVOS ] ^\: Irmãos? } 
+@ { [ APOIO À DECISÃO, INTELIGÊNCIA ARTIFICIAL E MÉTODOS QUANTITATIVOS ] ^\:} 
 * { [ Big Data. ] ^\:} 
 + { [ Definição de Big Data. ] ^\:} 
 + { [ Bancos de dados na nuvem. ] ^\:} 
@@ -171,7 +171,7 @@
 + { [ Modelagem Multidimensional.    ] ^\:} 
 + { [ Bancos de Dados Multidimensionais. ] ^\:} 
 + { [ Projeto de Data Warehouse. ] ^\:} 
-+ { [ Conceitos de extração, transformação e carga (ETL). ] ^\: Irmãos? } 
++ { [ Conceitos de extração, transformação e carga (ETL). ] ^\:} 
 * { [ Descoberta de Conhecimento e Mineração de Dados. ] ^\:} 
 + { [ Conceitos básicos do processo de descoberta de conhecimento em bancos de dados (KDD). ] ^\:} 
 + { [ Metodologia de KDD. ] ^\:} 
@@ -187,7 +187,7 @@
 + { [ Medidas separatrizes. ] ^\:} 
 + { [ Medidas de dispersão. ] ^\:} 
 + {Pai [Medidas de Forma:] Filhos [ assimetria e curtose, medidas de associação entre variáveis quantitativas e qualitativas (coeficiente de correlação linear de Pearson e coeficiente de contingência de Pearson)]} 
-+ { [ Gráficos, diagramas, tabelas, medidas descritivas (posição, dispersão, assimetria e curtose). ] ^\: Irmãos? } 
++ { [ Gráficos, diagramas, tabelas, medidas descritivas (posição, dispersão, assimetria e curtose). ] ^\:} 
 * { [ Noções de Probabilidade. ] ^\:} 
 + { [ Probabilidade condicional e independência. ] ^\:} 
 + { [ Variáveis aleatórias discretas e contínuas. ] ^\:} 
