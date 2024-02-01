@@ -1,7 +1,9 @@
-package aplicacao;
+package servico;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import modelo.Sessao;
 
 public class LeitorTexto {
 

@@ -1,6 +1,8 @@
-package aplicacao;
+package servico;
 
 import java.util.List;
+
+import modelo.PreNodo;
 
 public class Ramificador {
 

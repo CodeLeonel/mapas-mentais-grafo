@@ -2,6 +2,15 @@ package aplicacao;
 
 import java.util.List;
 
+import modelo.PreNodo;
+import modelo.Sessao;
+import repositorio.ImpressoraPreNodo;
+import repositorio.LeitorPDF;
+import servico.Categorizador;
+import servico.LeitorTexto;
+import servico.Padronizador;
+import servico.Ramificador;
+
 public class Programa {
 
 	public static void main(String[] args) {

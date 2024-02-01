@@ -1,8 +1,10 @@
-package aplicacao;
+package servico;
 
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import modelo.Sessao;
 
 public class Padronizador {
 	

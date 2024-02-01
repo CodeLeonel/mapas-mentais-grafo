@@ -1,4 +1,4 @@
-package aplicacao;
+package servico;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Queue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import modelo.IntervaloPadrao;
+import modelo.PreNodo;
+import modelo.Sessao;
+import util.RegexStorage;
 
 public class Categorizador {
 

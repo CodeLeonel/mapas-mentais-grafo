@@ -1,4 +1,4 @@
-package aplicacao;
+package repositorio;
 
 import java.io.File;
 import java.io.IOException;
