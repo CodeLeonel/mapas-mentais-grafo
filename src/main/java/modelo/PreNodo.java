@@ -2,6 +2,7 @@ package modelo;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class PreNodo {
 
@@ -58,6 +59,12 @@ public class PreNodo {
 
 	}
 	
+	public Boolean temFilhos() {
+
+		return !filhos.isEmpty();
+
+	}
+	
 	public PreNodo getPai() {
 		return pai;
 	}
@@ -84,6 +91,23 @@ public class PreNodo {
 
 	public List<PreNodo> getFilhos() {
 		return filhos;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nome);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		PreNodo other = (PreNodo) obj;
+		return Objects.equals(nome, other.nome);
 	}
 	
 }
