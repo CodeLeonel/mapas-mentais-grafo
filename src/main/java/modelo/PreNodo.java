@@ -95,7 +95,7 @@ public class PreNodo {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		return Objects.hash(nome, valorPreProcessado);
 	}
 
 	@Override
@@ -107,7 +107,7 @@ public class PreNodo {
 		if (getClass() != obj.getClass())
 			return false;
 		PreNodo other = (PreNodo) obj;
-		return Objects.equals(nome, other.nome);
+		return Objects.equals(nome, other.nome) && Objects.equals(valorPreProcessado, other.valorPreProcessado);
 	}
 	
 }

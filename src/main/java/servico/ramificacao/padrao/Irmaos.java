@@ -5,6 +5,7 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.stream.Stream;
 
+import estado.PaiAusenteEstado;
 import modelo.PreNodo;
 import servico.ramificacao.padrao.interfaces.IPadraoRamificacao;
 import util.RegEx;
@@ -48,7 +49,11 @@ public class Irmaos implements IPadraoRamificacao {
 	private PreNodo separarIrmaos(PreNodo preNodo, String codinomePadrao) {
 
 		
-		PreNodo paiAusente = new PreNodo(preNodo.getPai(),"+","Pai Ausente");
+		PaiAusenteEstado.maisUm();
+		
+		String rotuloPaiAusente = "Pai Ausente " + PaiAusenteEstado.quantidade();
+		
+		PreNodo paiAusente = new PreNodo(preNodo.getPai(),"+",rotuloPaiAusente);
 		
 		List<PreNodo> familia = preNodo.getPai().getFilhos();
 		

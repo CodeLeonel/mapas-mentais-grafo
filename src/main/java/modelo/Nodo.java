@@ -46,16 +46,22 @@ public class Nodo {
 		if (temFilhos()) {
 
 			strBuilder.append(id + " -> {");
+			
+			Integer tamanhoFilhos = 0;
 
 			for (int i = 0; i < filhos.size(); i++) {
 
 				if (i < filhos.size() - 1) {
 
+					Nodo filho = filhos.get(i);
+					
+					tamanhoFilhos += filho.getLabel().length();
+							
 					strBuilder.append(filhos.get(i).getId() + ",");
 
 				} else {
 
-					strBuilder.append(filhos.get(i).getId() + "} [len=" + distancia + "]");
+					strBuilder.append(filhos.get(i).getId() + "}");
 
 				}
 
@@ -69,7 +75,7 @@ public class Nodo {
 	@Override
 	public String toString() {
 
-		return id + " [ label=" + label + " shape=" + shape + " style=" + style + " fillcolor=" + fillcolor + " color="
+		return id + " [ label=\"" + label + "\" shape=" + shape + " style=" + style + " fillcolor=" + fillcolor + " color="
 				+ color + " ]";
 
 	}

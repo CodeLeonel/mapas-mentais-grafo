@@ -1,0 +1,374 @@
+digraph G {dlayout=neatoioverlap=scalegraph G {
+layout=neato
+overlap=scale
+
+
+573982205 [ label="CONHECIMENTOS GERAIS" shape=ellipse style=filled fillcolor=red color=black ]
+-508110717 [ label="POLÍTICAS PÚBLICAS" shape=ellipse style=filled fillcolor=orangered color=black ]
+1962186020 [ label="Introdução às políticas públicas" shape=ellipse style=filled fillcolor=gold color=black ]
+-1449245429 [ label="conceitos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1185633419 [ label="tipologias." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1368844492 [ label="Ciclos de políticas públicas" shape=ellipse style=filled fillcolor=gold color=black ]
+1235038871 [ label="agenda" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1540058185 [ label="formulação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1455880023 [ label="processos de decisão" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-699260853 [ label="implementação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-729756725 [ label="seus planos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-185685609 [ label="projetos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+451249515 [ label="programas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1276012267 [ label="monitoramento" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1143174025 [ label="avaliação." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1879362505 [ label="Institucionalização das políticas em Direitos Humanos como políticas de Estado." shape=ellipse style=filled fillcolor=gold color=black ]
+765814096 [ label="Federalismo e descentralização de políticas públicas no Brasil" shape=ellipse style=filled fillcolor=gold color=black ]
+-2038440277 [ label="organização" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-468635849 [ label="funcionamento dos sistemas de programas nacionais." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-277548710 [ label="DESAFIOS DO ESTADO DE DIREITO: DEMOCRACIA E CIDADANIA" shape=ellipse style=filled fillcolor=orangered color=black ]
+-1286256266 [ label="Estado de direito e a Constituição Federal de 1988" shape=ellipse style=filled fillcolor=gold color=black ]
+-2141915305 [ label="consolidação da democracia" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1759896631 [ label="representação política" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+86532311 [ label="participação cidadã." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-597662069 [ label="Divisão e coordenação de Poderes da República." shape=ellipse style=filled fillcolor=gold color=black ]
+-1886249592 [ label="Presidencialismo como sistema de governo" shape=ellipse style=filled fillcolor=gold color=black ]
+392379627 [ label="noções gerais" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1833393207 [ label="capacidades governativas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1629714795 [ label="especificidades do caso brasileiro." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1277614225 [ label="Efetivação e reparação de Direitos Humanos" shape=ellipse style=filled fillcolor=gold color=black ]
+-338144597 [ label="memória" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+2012748555 [ label="autoritarismo" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1883783465 [ label="violência de Estado." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+2071454709 [ label="(Decreto nº 7.037/2009)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1475726264 [ label="Combate às discriminações, desigualdades e injustiças" shape=ellipse style=filled fillcolor=gold color=black ]
+1631875767 [ label="de renda" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1091336055 [ label="regional" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-549951209 [ label="racial" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1107126295 [ label="etária" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1006853865 [ label="de gênero." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1492601156 [ label="Desenvolvimento sustentável, meio ambiente e mudança climática." shape=ellipse style=filled fillcolor=gold color=black ]
+35834961 [ label="ÉTICA e INTEGRIDADE." shape=ellipse style=filled fillcolor=orangered color=black ]
+-548187082 [ label="(Decreto nº 11.529/2023)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+525348603 [ label="Lei nº 12.527/2011" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1550759656 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+-2142923904 [ label="Princípios e valores éticos do serviço público" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1868818335 [ label="artigo 37 da Constituição Federal de 1988" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1263355077 [ label="(Decreto nº 1.171/1994)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1550759655 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+314249219 [ label="(Decreto nº 9.203, de 22 de novembro de 2017)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1381005551 [ label="Gestão de riscos e medidas mitigatórias na Administração Pública" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1550759654 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+-665416894 [ label="Transparência e qualidade na gestão pública" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1300680783 [ label="cidadania e equidade social." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1550759653 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+1118495624 [ label="Governo eletrônico e seu impacto na sociedade e na Administração Pública" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1090680977 [ label="Lei nº 14.129/2021" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1550759652 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+519588276 [ label="Transparência" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-2012559759 [ label="imparcialidade nos usos da inteligência artificial no âmbito do serviço público." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1688169371 [ label="DIVERSIDADE E INCLUSÃO NA SOCIEDADE" shape=ellipse style=filled fillcolor=orangered color=black ]
+972942599 [ label="Desafios sociopolíticos da inclusão de grupos vulnerabilizados" shape=ellipse style=filled fillcolor=gold color=black ]
+-801013289 [ label="crianças" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-999599849 [ label="adolescentes" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-104792713 [ label="idosos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1760250231 [ label="LGBTQIA+" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1764075191 [ label="pessoas com deficiências" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-773781417 [ label="pessoas em situação de rua" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-36211445 [ label="povos indígenas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1458165909 [ label="comunidades quilombolas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1343696727 [ label="demais minorias sociais." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1550759651 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+-1612569818 [ label="Diversidade de sexo" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-273579439 [ label="gênero e sexualidade" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+104692209 [ label="diversidade étnico-racial" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1231897617 [ label="diversidade cultural." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-104737750 [ label="ADMINISTRAÇÃO PÚBLICA FEDERAL" shape=ellipse style=filled fillcolor=orangered color=black ]
+-1276648568 [ label="(Decreto Lei nº 200/1967)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-2030691155 [ label="Agentes públicos" shape=ellipse style=filled fillcolor=gold color=black ]
+-1017417196 [ label="(Lei nº 8.112/1990 e suas alterações)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1550759650 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+-1903905573 [ label="Princípios constitucionais" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-972632067 [ label="(artigos de 37 a 41 da Constituição Federal de 1988)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+180511296 [ label="FINANÇAS PÚBLICAS" shape=ellipse style=filled fillcolor=orangered color=black ]
+-912154406 [ label="Atribuições econômicas do Estado." shape=ellipse style=filled fillcolor=gold color=black ]
+234288135 [ label="Fundamentos das finanças públicas, tributação e orçamento." shape=ellipse style=filled fillcolor=gold color=black ]
+-1560306274 [ label="Financiamento das Políticas Públicas" shape=ellipse style=filled fillcolor=gold color=black ]
+192030955 [ label="estrutura de receitas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+198486839 [ label="despesas do Estado brasileiro." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1403860466 [ label="Noções de orçamento público" shape=ellipse style=filled fillcolor=gold color=black ]
+-837084489 [ label="Plano Plurianual (PPA)" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-615305634 [ label="(LDO)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+1071559276 [ label="(LOA)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+-1550759649 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+690841180 [ label="Federalismo fiscal no Brasil" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1278112185 [ label="(Lei Complementar nº 101/2000)" shape=note style=filled fillcolor=lightskyblue1 color=deepskyblue ]
+
+
+573982205 -> {-508110717,-277548710,35834961,-1688169371,-104737750,180511296}
+-508110717 -> {1962186020,-1368844492,-1879362505,765814096}
+1962186020 -> {-1449245429,1185633419}
+
+
+-1368844492 -> {1235038871,-1540058185,1455880023,-699260853,-729756725,-185685609,451249515,1276012267,-1143174025}
+
+
+
+
+
+
+
+
+
+
+765814096 -> {-2038440277,-468635849}
+
+
+-277548710 -> {-1286256266,-597662069,-1886249592,-1277614225,2071454709,-1475726264,-1492601156}
+-1286256266 -> {-2141915305,1759896631,86532311}
+
+
+
+
+-1886249592 -> {392379627,1833393207,1629714795}
+
+
+
+-1277614225 -> {-338144597,2012748555,-1883783465}
+
+
+
+
+-1475726264 -> {1631875767,1091336055,-549951209,1107126295,-1006853865}
+
+
+
+
+
+
+35834961 -> {-548187082,525348603,-1550759656,-1550759655,-1550759654,-1550759653,-1550759652}
+
+
+-1550759656 -> {-2142923904,1868818335,-1263355077}
+
+
+
+-1550759655 -> {314249219,-1381005551}
+
+
+-1550759654 -> {-665416894,-1300680783}
+
+
+-1550759653 -> {1118495624,1090680977}
+
+
+-1550759652 -> {519588276,-2012559759}
+
+
+-1688169371 -> {972942599,-1550759651}
+972942599 -> {-801013289,-999599849,-104792713,1760250231,1764075191,-773781417,-36211445,-1458165909,1343696727}
+
+
+
+
+
+
+
+
+
+-1550759651 -> {-1612569818,-273579439,104692209,1231897617}
+
+
+
+
+-104737750 -> {-1276648568,-2030691155,-1550759650}
+
+-2030691155 -> {-1017417196}
+
+-1550759650 -> {-1903905573,-972632067}
+
+
+180511296 -> {-912154406,234288135,-1560306274,1403860466,-1550759649}
+
+
+-1560306274 -> {192030955,198486839}
+
+
+1403860466 -> {-837084489,-615305634,1071559276}
+
+
+
+-1550759649 -> {690841180,1278112185}
+
+
+
+
+}
+
+
+
+-927063967 [ label="GESTÃO GOVERNAMENTAL E GOVERNANÇA PÚBLICA" shape=ellipse style=filled fillcolor=red color=black ]
+772872923 [ label="Planejamento e gestão estratégica" shape=ellipse style=filled fillcolor=orangered color=black ]
+-870499115 [ label="Balanced Scorecard (BSC)." shape=ellipse style=filled fillcolor=gold color=black ]
+1028552044 [ label="Matriz SWOT." shape=ellipse style=filled fillcolor=gold color=black ]
+-1736999241 [ label="Estabelecimento de objetivos e metas organizacionais." shape=ellipse style=filled fillcolor=gold color=black ]
+786836409 [ label="Implementação de estratégias." shape=ellipse style=filled fillcolor=gold color=black ]
+-410712216 [ label="Análise de cenários." shape=ellipse style=filled fillcolor=gold color=black ]
+-1243921593 [ label="Ferramentas de gestão." shape=ellipse style=filled fillcolor=gold color=black ]
+-248632922 [ label="Metodologias para medição de desempenho." shape=ellipse style=filled fillcolor=gold color=black ]
+621493536 [ label="Indicadores de desempenho" shape=ellipse style=filled fillcolor=gold color=black ]
+230345623 [ label="conceito" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1540058185 [ label="formulação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+275458295 [ label="análise." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1215487483 [ label="Detalhamento da ferramenta de avaliação de desempenho" shape=ellipse style=filled fillcolor=gold color=black ]
+36875671 [ label="OKR." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1449245429 [ label="conceitos" shape=ellipse style=filled fillcolor=gold color=black ]
+1712419799 [ label="princípios" shape=ellipse style=filled fillcolor=gold color=black ]
+985033495 [ label="etapas" shape=ellipse style=filled fillcolor=gold color=black ]
+-59110377 [ label="níveis" shape=ellipse style=filled fillcolor=gold color=black ]
+412912459 [ label="métodos" shape=ellipse style=filled fillcolor=gold color=black ]
+-553454569 [ label="ferramentas." shape=ellipse style=filled fillcolor=gold color=black ]
+-1550759648 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+1859472892 [ label="Métodos de desdobramento de objetivos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-2118947119 [ label="metas" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+893137841 [ label="elaboração de planos de ação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+2061121841 [ label="mapas estratégicos." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-885643128 [ label="Gestão de projetos." shape=ellipse style=filled fillcolor=orangered color=black ]
+-1390983796 [ label="Conceitos básicos." shape=ellipse style=filled fillcolor=gold color=black ]
+-45774697 [ label="Processos do PMBOK." shape=ellipse style=filled fillcolor=gold color=black ]
+-1388799239 [ label="Metodologias ágeis." shape=ellipse style=filled fillcolor=gold color=black ]
+-828977852 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+1139680772 [ label="Gerenciamento da integração" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-124831215 [ label="do escopo" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-682152463 [ label="do tempo" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1236144367 [ label="de custos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+106219473 [ label="da qualidade" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+834851729 [ label="de recursos humanos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+911600977 [ label="de comunicações" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-734208623 [ label="de riscos" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-145395983 [ label="de aquisições" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-990842287 [ label="de partes interessadas." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1483629343 [ label="Gestão de processos de negócio." shape=ellipse style=filled fillcolor=orangered color=black ]
+1253739063 [ label="Conceitos da abordagem por processos." shape=ellipse style=filled fillcolor=gold color=black ]
+1993817209 [ label="Modelagem de processos com BPMN (versão 2.0)." shape=ellipse style=filled fillcolor=gold color=black ]
+1329283482 [ label="Desenho de serviços públicos." shape=ellipse style=filled fillcolor=gold color=black ]
+-828977851 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+-279338016 [ label="Técnicas de mapeamento" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+884961457 [ label="análise" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-1888472207 [ label="melhoria e integração de processos." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1070079574 [ label="Gestão de riscos" shape=ellipse style=filled fillcolor=orangered color=black ]
+895853619 [ label="Processo de Gestão de Riscos" shape=ellipse style=filled fillcolor=gold color=black ]
+1370041579 [ label="comunicação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+718533175 [ label="consulta" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-23246825 [ label="contextualização" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+65427659 [ label="identificação" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1117265291 [ label="análise" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+117294647 [ label="tratamento" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+1276012267 [ label="monitoramento" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+107320427 [ label="retroalimentação." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-583537911 [ label="Boas práticas de gestão de Riscos." shape=ellipse style=filled fillcolor=gold color=black ]
+1712419799 [ label="princípios" shape=ellipse style=filled fillcolor=gold color=black ]
+1950124651 [ label="objetos" shape=ellipse style=filled fillcolor=gold color=black ]
+1043288343 [ label="técnicas" shape=ellipse style=filled fillcolor=gold color=black ]
+-1756414805 [ label="modelos nacionais" shape=ellipse style=filled fillcolor=gold color=black ]
+-525829641 [ label="internacionais" shape=ellipse style=filled fillcolor=gold color=black ]
+1770969483 [ label="integração ao planejamento." shape=ellipse style=filled fillcolor=gold color=black ]
+-1631068458 [ label="Inovação na gestão pública." shape=ellipse style=filled fillcolor=orangered color=black ]
+210289802 [ label="Comunicação na gestão pública." shape=ellipse style=filled fillcolor=orangered color=black ]
+-212462353 [ label="compras governamentais." shape=ellipse style=filled fillcolor=orangered color=black ]
+-2071452132 [ label="Processos de compras e gestão de contratos." shape=ellipse style=filled fillcolor=gold color=black ]
+708677693 [ label="Contratações de tecnologia da informação." shape=ellipse style=filled fillcolor=gold color=black ]
+-829776508 [ label="Sustentabilidade das contratações." shape=ellipse style=filled fillcolor=gold color=black ]
+-257155581 [ label="Compras centralizadas." shape=ellipse style=filled fillcolor=gold color=black ]
+201478471 [ label="Organização sistêmica da administração pública federal." shape=ellipse style=filled fillcolor=orangered color=black ]
+-828977849 [ label="+" shape=folder style=filled fillcolor=gold color=black ]
+179708144 [ label="Sistemas estruturantes" shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+503320305 [ label="estruturadores da administração pública federal." shape=ellipse style=filled fillcolor=yellowgreen color=black ]
+-828977850 [ label="+" shape=folder style=filled fillcolor=orangered color=black ]
+298208204 [ label="Governo eletrônico" shape=ellipse style=filled fillcolor=gold color=black ]
+209948817 [ label="transparência da administração pública" shape=ellipse style=filled fillcolor=gold color=black ]
+533172817 [ label="controle social e cidadania" shape=ellipse style=filled fillcolor=gold color=black ]
+147944049 [ label="accountability." shape=ellipse style=filled fillcolor=gold color=black ]
+
+
+-927063967 -> {772872923,-885643128,1483629343,1070079574,-1631068458,210289802,-212462353,201478471,-828977850}
+772872923 -> {-870499115,1028552044,-1736999241,786836409,-410712216,-1243921593,-248632922,621493536,1215487483,-1449245429,1712419799,985033495,-59110377,412912459,-553454569,-1550759648}
+
+
+
+
+
+
+
+621493536 -> {230345623,-1540058185,275458295}
+
+
+
+1215487483 -> {36875671}
+
+
+
+
+
+
+
+-1550759648 -> {1859472892,-2118947119,893137841,2061121841}
+
+
+
+
+-885643128 -> {-1390983796,-45774697,-1388799239,-828977852}
+
+
+
+-828977852 -> {1139680772,-124831215,-682152463,-1236144367,106219473,834851729,911600977,-734208623,-145395983,-990842287}
+
+
+
+
+
+
+
+
+
+
+1483629343 -> {1253739063,1993817209,1329283482,-828977851}
+
+
+
+-828977851 -> {-279338016,884961457,-1888472207}
+
+
+
+1070079574 -> {895853619,-583537911,1712419799,1950124651,1043288343,-1756414805,-525829641,1770969483}
+895853619 -> {1370041579,718533175,-23246825,65427659,1117265291,117294647,1276012267,107320427}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-212462353 -> {-2071452132,708677693,-829776508,-257155581}
+
+
+
+
+201478471 -> {-828977849}
+-828977849 -> {179708144,503320305}
+
+
+-828977850 -> {298208204,209948817,533172817,147944049}
+
+
+
+
+
+
+}

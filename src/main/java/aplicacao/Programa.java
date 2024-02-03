@@ -2,14 +2,16 @@ package aplicacao;
 
 import java.util.List;
 
+import modelo.Nodo;
 import modelo.PreNodo;
 import modelo.Sessao;
-import repositorio.ImpressoraPreNodo;
+import repositorio.ImpressoraGrafo;
 import repositorio.ImpressoraSessao;
 import repositorio.LeitorPDF;
 import servico.Categorizador;
 import servico.LeitorTexto;
 import servico.Padronizador;
+import servico.geracao.Gerador;
 import servico.ramificacao.Ramificador;
 import servico.ramificacao.padrao.FilhosAninhados;
 import servico.ramificacao.padrao.Irmaos;
@@ -56,11 +58,19 @@ public class Programa {
 		
 		preNodoList = ramificadorD.analisarPreNodos(preNodoList);
 		
-		ImpressoraPreNodo impressoraPreNodo = new ImpressoraPreNodo();
+		//ImpressoraPreNodo impressoraPreNodo = new ImpressoraPreNodo();
 		
-		impressoraPreNodo.imprimirPreNodos(preNodoList);
+		//impressoraPreNodo.imprimirPreNodos(preNodoList);
 		
 		//LegislacaoEstado.getLegilacoes().forEach(System.out::println);
+		
+		Gerador gerador = new Gerador();
+		
+		List<Nodo> nodoList = gerador.gerarNodos(preNodoList);
+		
+		ImpressoraGrafo impressoraGrafo = new ImpressoraGrafo("bloco2");
+		
+		impressoraGrafo.imprimirGrafos(nodoList);
 
 	}
 
