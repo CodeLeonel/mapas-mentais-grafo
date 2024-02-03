@@ -1,11 +1,20 @@
 package servico.ramificacao;
 
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import modelo.PreNodo;
+import servico.ramificacao.padrao.interfaces.IPadraoRamificacao;
 
 public class Ramificador {
 
+	private IPadraoRamificacao padraoRamificacao;
+	
+	public Ramificador(IPadraoRamificacao padraoRamificacao) {
+		
+		this.padraoRamificacao = padraoRamificacao;
+	}
+	
 	public List<PreNodo> analisarPreNodos(List<PreNodo> preNodoList) {
 
 		for (PreNodo preNodo : preNodoList) {
@@ -19,33 +28,13 @@ public class Ramificador {
 
 	private PreNodo identificarPreNodos(PreNodo paiDeTodos, PreNodo preNodo) {
 
-		String valor = null;
-
-		if (preNodo.getNome().contains(":")) {
-
-			String[] valores = preNodo.getNome().split(":");
-
-			if (valores.length == 2) {
-				valor = "Pai [" + valores[0] + ":] Filhos [" + valores[1] + "]";
-			} else {
-				valor = " ~: [ " + preNodo.getNome() + " ] ";
-			}
-
-		} else {
-
-			valor = " [ " + preNodo.getNome() + " ] ^\\:";
-
-			if (preNodo.getNome().contains(";") || preNodo.getNome().contains(",")) {
-				valor += " Irmãos? ";
-			}
-
-		}
-
-		preNodo.setValorPreProcessado(valor);
+		preNodo = this.padraoRamificacao.encontrar(preNodo);
 
 		if (!preNodo.getFilhos().isEmpty()) {
-
-			for (PreNodo filho : preNodo.getFilhos()) {
+			
+			List<PreNodo> filhos = new CopyOnWriteArrayList<>(preNodo.getFilhos());
+			
+			for (PreNodo filho : filhos) {
 
 				identificarPreNodos(paiDeTodos, filho);
 

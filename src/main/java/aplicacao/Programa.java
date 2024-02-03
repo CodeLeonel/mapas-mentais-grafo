@@ -5,11 +5,16 @@ import java.util.List;
 import modelo.PreNodo;
 import modelo.Sessao;
 import repositorio.ImpressoraPreNodo;
+import repositorio.ImpressoraSessao;
 import repositorio.LeitorPDF;
 import servico.Categorizador;
 import servico.LeitorTexto;
 import servico.Padronizador;
 import servico.ramificacao.Ramificador;
+import servico.ramificacao.padrao.FilhosAninhados;
+import servico.ramificacao.padrao.Irmaos;
+import servico.ramificacao.padrao.Legislacoes;
+import servico.ramificacao.padrao.PaisEFilhos;
 
 public class Programa {
 
@@ -26,18 +31,36 @@ public class Programa {
 		Padronizador padronizador = new Padronizador();
 
 		sessaoList = padronizador.ajustaSessao(sessaoList);
+		
+		ImpressoraSessao impressoraSessao = new ImpressoraSessao();
+		
+		impressoraSessao.imprimirSessao(sessaoList);
 
 		Categorizador categorizador = new Categorizador();
 
 		List<PreNodo> preNodoList = categorizador.categorizarSessao(sessaoList);
 
-		Ramificador ramificador = new Ramificador();
+		Ramificador ramificadorA = new Ramificador(new PaisEFilhos());
 		
-		preNodoList = ramificador.analisarPreNodos(preNodoList);
+		preNodoList = ramificadorA.analisarPreNodos(preNodoList);
+		
+		Ramificador ramificadorB = new Ramificador(new Irmaos());
+		
+		preNodoList = ramificadorB.analisarPreNodos(preNodoList);
+		
+		Ramificador ramificadorC = new Ramificador(new Legislacoes());
+		
+		preNodoList = ramificadorC.analisarPreNodos(preNodoList);
+		
+		Ramificador ramificadorD = new Ramificador(new FilhosAninhados());
+		
+		preNodoList = ramificadorD.analisarPreNodos(preNodoList);
 		
 		ImpressoraPreNodo impressoraPreNodo = new ImpressoraPreNodo();
 		
 		impressoraPreNodo.imprimirPreNodos(preNodoList);
+		
+		//LegislacaoEstado.getLegilacoes().forEach(System.out::println);
 
 	}
 

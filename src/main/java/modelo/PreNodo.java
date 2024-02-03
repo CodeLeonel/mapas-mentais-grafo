@@ -54,7 +54,7 @@ public class PreNodo {
 	@Override
 	public String toString() {
 	
-		return " {" + valorPreProcessado + "} ";
+		return " [ " + nome + " ] tamanho= " + nome.length();
 
 	}
 	

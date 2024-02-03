@@ -11,7 +11,7 @@ public class ImpressoraPreNodo {
 
 	public void imprimirPreNodos(List<PreNodo> preNodoList) {
 		
-		try(BufferedWriter bf = new BufferedWriter(new FileWriter("preNodos.txt"))) {
+		try(BufferedWriter bf = new BufferedWriter(new FileWriter("./textos/preNodos.txt"))) {
 			
 			bf.write(rotularPreNodos(preNodoList, 1));
 			

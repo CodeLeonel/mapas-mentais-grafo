@@ -1,0 +1,23 @@
+\(Decreto.*\) = 6
+
+Decreto.*alterações|Decreto.*\/\d+\. = 2 (são Irmãos)
+
+\(Lei.*\) = 3
+
+Lei\sn\º\s\d+\.\d+\/\d+ = 3 (1 tem Irmãos)
+
+Lei.*\) = 1
+
+\(artigo.*\) = 1
+
+artigo.*1988 = 1
+
+
+
+Pais E Filhos = ,\s|\se\s
+
+(\(Decreto.*\)|Decreto.*alterações|Decreto.*\/\d+\.|\(Lei.*\)|Lei\sn\º\s\d+\.\d+\/\d+\se\salterações.|Lei\sn\º\s\d+\.\d+\/\d+|Lei.*\)|\(artigo.*\)|artigo.*1988)
+
+\w+\s*\w*\s*\(+\D*\,*\s+e+\s+.*\)
+
+(||||||||)

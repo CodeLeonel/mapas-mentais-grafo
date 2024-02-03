@@ -95,7 +95,7 @@ public class Categorizador {
 
 	private String nomeacao(String valor) {
 
-		String nome = valor.split(RegexStorage.get("familia"))[1];
+		String nome = valor.split(RegexStorage.get("familiaSessao"))[1].trim();
 
 		return nome;
 

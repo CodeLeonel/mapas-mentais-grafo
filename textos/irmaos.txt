@@ -1,0 +1,24 @@
+Diversidade de sexo, gênero e sexualidade; diversidade étnico-racial; diversidade cultural. 
+Governança pública e sistemas de governança (Decreto nº 9.203, de 22 de novembro de 2017). Gestão de riscos e medidas mitigatórias na Administração Pública.
+Princípios e valores éticos do serviço público, seus direitos e deveres à luz do artigo 37 da Constituição Federal de 1988, e do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994).
+Federalismo fiscal no Brasil; Lei de Responsabilidade Fiscal (Lei Complementar nº 101/2000). 
+Métodos de desdobramento de objetivos e metas e elaboração de planos de ação e mapas estratégicos. 
+Gerenciamento da integração, do escopo, do tempo, de custos, da qualidade, de recursos humanos, de comunicações, de riscos, de aquisições, de partes interessadas.
+Governo eletrônico; transparência da administração pública; controle social e cidadania; accountability.
+O papel da burocracia e a discricionariedade no processo de formulação e implementação de políticas públicas. 
+Principais diretrizes da formulação, implementação e avaliação de políticas públicas.
+Políticas de Governo Digital – Lei nº 14.129/2021. Marco Civil da Internet – Lei nº 12.965/2014 e alterações. Defesa do Usuário dos Serviços Públicos da Administração Pública – Lei nº 13.460/2017 e alterações. 
+Estratégia Nacional de Governo Digital -  Decreto 11.260/22 e suas alterações; Decreto nº 10.332/2020. 
+Gráficos, diagramas, tabelas, medidas descritivas (posição, dispersão, assimetria e curtose). 
+Entidades Discretas e Contínuas; Algoritmos; Operações Lógicas, Aritméticas, Trigonométricas e Estatísticas.
+
+Irmão >= 85 e não tem :
+
+Se tiver ; ou ,
+[,;](?![^()]*\))
+
+Se . > 1
+\.(?!(?:\d))(?![^()]*\))
+
+Se . = 1
+\se\s
