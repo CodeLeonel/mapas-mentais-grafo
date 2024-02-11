@@ -8,13 +8,13 @@ import org.apache.pdfbox.text.PDFTextStripper;
 
 public class LeitorPDF {
 
-	public String lerArquivo() {
+	public String lerArquivo(int numeroBloco) {
 		
 		PDDocument document = null;
 		PDFTextStripper pdfStripper = null;
 		String text = null;
 		
-		File file = new File("./editais/edital-cpnu-bloco-2-2024-01-26-retificado.pdf");
+		File file = new File("./editais/edital-cpnu-bloco-" + numeroBloco + "-2024-01-26-retificado.pdf");
 		
 		try {
 			document = PDDocument.load(file);

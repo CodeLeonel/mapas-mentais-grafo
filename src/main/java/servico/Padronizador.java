@@ -25,7 +25,7 @@ public class Padronizador {
 			
 			String tema = sessao.getTema();
 			
-			tema = tema.contains("EIXO TEMÁTICO") ? tema.split("–")[1].trim() : tema;
+			tema = tema.contains("EIXO TEMÁTICO") ? tema.split("[–-]")[1].trim() : tema;
 			
 			sessao.setTema(tema);
 			

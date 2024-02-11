@@ -22,19 +22,23 @@ public class Programa {
 
 	public static void main(String[] args) {
 
+		int numeroBloco = 2;
+		
 		LeitorPDF leitor = new LeitorPDF();
 
-		String texto = leitor.lerArquivo();
+		String texto = leitor.lerArquivo(numeroBloco);
 
 		LeitorTexto leitorTexto = new LeitorTexto();
 
 		List<Sessao> sessaoList = leitorTexto.lerTexto(texto, 0, null);
+		
+		ImpressoraSessao impressoraSessao = new ImpressoraSessao();
+		
+		impressoraSessao.imprimirSessao(sessaoList);
 
 		Padronizador padronizador = new Padronizador();
 
 		sessaoList = padronizador.ajustaSessao(sessaoList);
-		
-		ImpressoraSessao impressoraSessao = new ImpressoraSessao();
 		
 		impressoraSessao.imprimirSessao(sessaoList);
 
@@ -68,7 +72,7 @@ public class Programa {
 		
 		List<Nodo> nodoList = gerador.gerarNodos(preNodoList);
 		
-		ImpressoraGrafo impressoraGrafo = new ImpressoraGrafo("bloco2");
+		ImpressoraGrafo impressoraGrafo = new ImpressoraGrafo("bloco" + numeroBloco);
 		
 		impressoraGrafo.imprimirGrafos(nodoList);
 

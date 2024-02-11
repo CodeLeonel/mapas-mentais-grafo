@@ -29,7 +29,7 @@ public class Legislacoes implements IPadraoRamificacao {
 				
 				if(parenteses.find()) {
 					
-					String sigla = codigoLegislacao.substring(parenteses.start()+1);
+					String sigla = codigoLegislacao.substring(parenteses.start());
 					descricaoLegislacao = codigoLegislacao.substring(0,parenteses.start());
 					
 					LegislacaoEstado.inserir(sigla, descricaoLegislacao);

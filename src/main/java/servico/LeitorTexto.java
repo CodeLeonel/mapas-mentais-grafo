@@ -20,7 +20,12 @@ public class LeitorTexto {
 
 		for (int i = indice; i < linhas.length; i++) {
 
-			if (linhas[i].contains("CONHECIMENTOS GERAIS") || linhas[i].contains("EIXO TEMÁTICO")) {
+			if (linhas[i].contains("CONHECIMENTOS GERAIS") 
+					|| linhas[i].contains("EIXO TEMÁTICO")
+					|| linhas[i].contains("LÍNGUA PORTUGUESA")
+					|| linhas[i].contains("NOÇÕES DE DIREITO")
+					|| linhas[i].contains("MATEMÁTICA")
+					|| linhas[i].contains("REALIDADE BRASILEIRA")) {
 
 				Sessao sessao = new Sessao(linhas[i].trim());
 				StringBuilder stringBuilder = new StringBuilder();
@@ -29,7 +34,10 @@ public class LeitorTexto {
 
 				while (!outra && indiceSessao < linhas.length) {
 
-					if (linhas[indiceSessao].contains("EIXO TEMÁTICO")) {
+					if (linhas[indiceSessao].contains("EIXO TEMÁTICO") 
+							|| linhas[indiceSessao].contains("NOÇÕES DE DIREITO")
+							|| linhas[indiceSessao].contains("MATEMÁTICA")
+							|| linhas[indiceSessao].contains("REALIDADE BRASILEIRA")) {
 						outra = true;
 						sessao.setTexto(stringBuilder.toString());
 						sessaoList.add(sessao);

@@ -48,21 +48,24 @@ public class Irmaos implements IPadraoRamificacao {
 
 	private PreNodo separarIrmaos(PreNodo preNodo, String codinomePadrao) {
 
+		if(preNodo.getPai() != null) {
+			
+			PaiAusenteEstado.maisUm();
+			
+			String rotuloPaiAusente = "Pai Ausente " + PaiAusenteEstado.quantidade();
+			
+			PreNodo paiAusente = new PreNodo(preNodo.getPai(),"+",rotuloPaiAusente);
+			
+			List<PreNodo> familia = preNodo.getPai().getFilhos();
+			
+			familia.remove(preNodo);
+			familia.add(paiAusente);
+			
+			paiAusente.getFilhos().add(preNodo);
+			
+			preNodo = nomearIrmaos(paiAusente, preNodo, codinomePadrao);
+		}
 		
-		PaiAusenteEstado.maisUm();
-		
-		String rotuloPaiAusente = "Pai Ausente " + PaiAusenteEstado.quantidade();
-		
-		PreNodo paiAusente = new PreNodo(preNodo.getPai(),"+",rotuloPaiAusente);
-		
-		List<PreNodo> familia = preNodo.getPai().getFilhos();
-		
-		familia.remove(preNodo);
-		familia.add(paiAusente);
-		
-		paiAusente.getFilhos().add(preNodo);
-		
-		preNodo = nomearIrmaos(paiAusente, preNodo, codinomePadrao);
 		
 		return preNodo;
 	}

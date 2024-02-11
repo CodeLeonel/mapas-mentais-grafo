@@ -1,9 +1,8 @@
 package repositorio;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.List;
 
+import application.JaGraph;
 import modelo.Nodo;
 
 public class ImpressoraGrafo {
@@ -16,24 +15,38 @@ public class ImpressoraGrafo {
 	}
 
 	public void imprimirGrafos(List<Nodo> nodoList) {
-		
-		graphBuilder.append("\n").append("\n");
-		
+
 		int numeroGrafo = 0;
+
+		int numeroSessao = 0;
 		
 		for (Nodo nodo : nodoList) {
-
-			numeroGrafo++;
+			
+			numeroSessao++;
 			
 			graphBuilder.append("\n").append("\n");
 			
-			graphBuilder.append(percorrerArvore(nodo));
+			nodo = primeirosNodos(nodo, nomearArquivo(numeroSessao,numeroGrafo));
 			
-			imprimir("grafo" + numeroGrafo);
+			graphBuilder.setLength(0);
+			
+			for(Nodo grafo : nodo.getFilhos()) {
+				
+				graphBuilder.append("\n").append("\n");
+				
+				numeroGrafo++;
+				
+				graphBuilder.append(percorrerArvore(grafo));
+
+				imprimir(nomearArquivo(numeroSessao,numeroGrafo));
+				
+				graphBuilder.setLength(0);
+				
+			}
+			
+			numeroGrafo = 0;
 			
 		}
-
-		
 
 	}
 
@@ -91,43 +104,61 @@ public class ImpressoraGrafo {
 	}
 
 	private void imprimir(String adendoArquivo) {
+	
 		try {
 
 			if (prefixoArquivo == null || prefixoArquivo.isEmpty()) {
 				prefixoArquivo = "grafo";
 			}
-			
-			
-			//graphBuilder.insert(3, "splines=true").append("\n");
-			graphBuilder.insert(2, "overlap=scale").append("\n");
-			graphBuilder.insert(1, "layout=neato").append("\n");
+
+			graphBuilder.insert(1, "overlap=scale").append("\n");
 			graphBuilder.insert(0, "digraph G {").append("\n");
-
 			graphBuilder.append("}").append("\n");
-			escreverTextoParaArquivo("./textos/" + prefixoArquivo + adendoArquivo + ".gv", graphBuilder.toString());
-
-			StringBuilder comando = new StringBuilder();
-			comando.append("dot -Tpdf "). // output type
-					append("./textos/" + prefixoArquivo + adendoArquivo).append(".gv "). // input dot file
-					append("-o ").append("./grafos/" + prefixoArquivo + adendoArquivo).append(".pdf"); // output
-																												// image
-
-			executarCommando(comando.toString());
+			
+			String comandosDot = graphBuilder.toString();
+			
+			String caminhoArquivo = caminhoArquivo(adendoArquivo);
+			
+			JaGraph.renderPDFile(comandosDot, "neato", caminhoArquivo);
+			
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 
 	}
-
-	private void executarCommando(String command) throws Exception {
-		System.out.println(command);
-		Runtime.getRuntime().exec(command);
+	
+	private Nodo primeirosNodos(Nodo nodo, String nomeArquivo) {
+		
+		graphBuilder.append("\n").append("\n");
+		
+		graphBuilder.append(nodo.toString()).append("\n");
+		
+		for(Nodo filho : nodo.getFilhos()) {
+			
+			graphBuilder.append(filho.toString()).append("\n");
+			
+		}
+		
+		graphBuilder.append(nodo.arestasFilhos(2)).append("\n");
+		
+		imprimir(nomeArquivo);
+		
+		return nodo;
+		
+	}
+	
+	private String nomearArquivo(int numeroSessao, int numeroGrafo) {
+		
+		return "sessao" + numeroSessao + "grafo" + numeroGrafo;
+		
+	}
+	
+	private String caminhoArquivo(String adendoArquivo) {
+		
+		return "grafos/" + prefixoArquivo + adendoArquivo;
+		
 	}
 
-	private void escreverTextoParaArquivo(String nomeArquivo, String texto) throws IOException {
-		FileOutputStream saidaStream = new FileOutputStream(nomeArquivo);
-		saidaStream.write(texto.getBytes());
-		saidaStream.close();
-	}
+	
 
 }
